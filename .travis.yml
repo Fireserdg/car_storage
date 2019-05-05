@@ -17,6 +17,9 @@ notifications:
     on_failure: always # default: always
 # Разворачиваем базу данных
 
+env:
+  global:
+    - CODECOV_TOKEN="b9c42815-b0d2-4be3-aa81-5b25225ca24e"
 jdk:
   - openjdk11
 
